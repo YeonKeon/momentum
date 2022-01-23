@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="app.js"></script>
+    <div class="div">
+        <h1>Random Number Game</h1><br>
+        <h2>Generate a number between 0 and </h2><br>
+        <input type="number" id="between-number" name="between-num" min="0">
+        <h2>Guess the number:</h2>
+        <input type="number" id="select-number" name="select-num" min="0" max="#between-number">
+        <button onclick="play()" id="btn">play!</button>
+
+        <p id="message1">You chose: 1, the machine chose: 9</p>
+        <p id="message2">You lost!</p>
+    </div>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum App</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <!-- <button>Give me color</button> -->
+    <div class="console"> 
+        <h2 id="clock">00:00:00</h2>
+
+        <form id="login-form" class="hidden again">
+            <input class="" type="text" placeholder="What is your name?" required maxlength="15" minlength="2"/>
+            <button>Log In</button>
+        </form>
+
+        <h1 id="greeting" class="hidden"></h2>
+        <button id="changeBtn">Change Username</button>
+
+        <form id="todo-form">
+            <input type="text" placeholder="TO Do List:" required>
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
